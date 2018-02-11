@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -25,6 +27,13 @@ public class DocLogin extends AppCompatActivity {
     private final String TAG = "adsf";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
+
+//Remove notification bar
+        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
+//set content view AFTER ABOVE sequence (to avoid crash)
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_doc_login);
         mAuth = FirebaseAuth.getInstance();
