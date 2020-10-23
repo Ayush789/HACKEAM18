@@ -1,12 +1,8 @@
 # SFPHAD 🏥👩‍⚕️ (System For Prevention of Hospital-Acquired Diseases)
 
-<img src=gifs/signup.gif width=19%>
-<img src=gifs/onboarding.gif width=19%>
-<img src=gifs/drawer.gif width=19%>
-<img src=gifs/schedule.gif width=19%>
-<img src=gifs/file_upload.gif width=19%>
+<img src=gifs/signup.gif width=19%> <img src=gifs/onboarding.gif width=19%> <img src=gifs/drawer.gif width=19%> <img src=gifs/schedule.gif width=19%> <img src=gifs/file_upload.gif width=19%>
 
-> Redesigned by @piculet [:github:](http://www.github.com/piculet)
+> Redesigned by @piculet [github](http://www.github.com/piculet)
 
 ### A Cross platform mobile application for patient scheduling and report management to reduce time hospital acquired diseases and cut down on patient waiting period.
 
